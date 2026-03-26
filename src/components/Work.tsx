@@ -53,23 +53,48 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <h4>AR Space Designer</h4>
+                  <p>AR-based Web Application</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>React, TypeScript, HTML, CSS, Firebase</p>
             </div>
-          ))}
+            <WorkImage image="/images/placeholder.webp" alt="AR Space Designer" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <h4>Blog Website</h4>
+                  <p>Frontend Web Application</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Blog Website" />
+          </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Project Management Tool</h4>
+                  <p>Full-Stack Web Application</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, Node.js, MongoDB</p>
+            </div>
+            <WorkImage image="/images/placeholder.webp" alt="Project Management Tool" />
+          </div>
         </div>
       </div>
     </div>

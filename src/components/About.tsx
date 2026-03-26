@@ -6,9 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          Frontend Developer with hands-on experience in HTML, CSS, JavaScript,
+          and React, specializing in building responsive and user-friendly web
+          applications. Experienced through projects and internships, with a
+          solid understanding of modern UI development and performance
+          optimization. Web3 enthusiast exploring modern decentralized
+          technologies.
         </p>
       </div>
     </div>
